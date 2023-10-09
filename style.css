@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(226 232 240);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 48px;
+}
+
+.card {
+    padding: 1rem;
+    padding-inline: 3rem;
+    height: 250px;
+    width: 450px;
+    border-radius: 12px;
+    border: 1px solid black;
+
+}
+
+.c1 {
+    background: linear-gradient(112.4deg, rgb(176, 174, 225) 44.9%, rgb(135, 197, 235) 94.5%);
+}
+
+.c2 {
+    background: radial-gradient(345px at 3.1% 89.3%, rgba(254, 223, 45, 0.46) 0%, rgba(254, 139, 45, 0.46) 31.9%, rgba(255, 24, 220, 0.46) 62%, rgba(24, 145, 255, 0.46) 85.8%);
+
+}
+
+.card-2 {
+    padding: 1rem;
+    height: 250px;
+    width: 450px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.bankName {
+    color: rgb(231, 228, 228);
+    text-align: right;
+}
+
+.chipDiv {
+    padding-top: 28px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.chipImg {
+    height: 55px;
+    width: 55px;
+}
+
+.cardNumber {
+    padding-top: 8px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: .2rem;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+
+.name {
+    padding-top: 8px;
+}
+
+.expiry {
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+}
+
+.expiry .valid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.cardText {
+    text-align: center;
+    font-size: 12px;
+}
+
+.cardTexts {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 8px;
+
+}
